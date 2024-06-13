@@ -6,7 +6,23 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #f1f1f3; /* Change background color to blue theme */
-    color: #000000; /* Change text color to white */
+    color: #000000; /* Change text color to black */
+}
+
+.cat-image {
+    width: 100%;
+    max-width: 600px; /* Adjust max-width as needed */
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.cat-bottom-image {
+    width: 100%;
+    max-width: 600px; /* Adjust max-width as needed */
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners */
 }
 
 h1 {
@@ -19,6 +35,7 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: center;
+    font-family: serif; /* Change font family to serif */
 }
 
 .tablinks {
@@ -30,6 +47,7 @@ h1 {
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
+    font-family: serif; /* Change font family to serif */
 }
 
 .tablinks:hover {
@@ -124,7 +142,6 @@ h1 {
     border: none;
     border-top: 1px solid #ccc; /* Style the line */
 }
-
 
 #Routine {
     display: none;
