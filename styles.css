@@ -1,0 +1,163 @@
+body {
+    font-family: serif; /* Change font family to serif */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f3; /* Change background color to blue theme */
+    color: #000000; /* Change text color to white */
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.tabs {
+    overflow: hidden;
+    background-color: #eadfdf;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tablinks {
+    background-color: #eadfdf;
+    color: rgb(8, 6, 6);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tablinks:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    width: 80%;
+    border-top: none;
+}
+
+.tabcontent h2 {
+    text-align: center;
+}
+
+.tabcontent ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tabcontent ul li {
+    margin: 10px 0;
+}
+
+.instructions-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centering all content */
+}
+
+.instructions-list > li {
+    margin-bottom: 20px;
+}
+
+.instructions-list > li > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; /* Centering subsections */
+    max-width: 600px; /* Set maximum width for subsections */
+}
+
+.instructions-list > li > ul > li {
+    margin-bottom: 8px;
+    text-align: left; /* Aligning instructions to the left */
+}
+
+.instructions-list strong {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px; /* Adding margin below subsection titles */
+}
+
+.divider {
+    border-top: 1px solid #ccc; /* Adding border between subsections */
+    margin: 10px auto; /* Adjusting margin for the divider */
+    width: 50%; /* Set width of the divider */
+}
+
+.items-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.items-list li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.items-list img {
+    width: 100px; /* Set image width */
+    margin-right: 20px; /* Add spacing between image and text */
+}
+
+.items-list .item-info {
+    flex: 1; /* Take up remaining space */
+}
+
+.items-list h3 {
+    margin-top: 0; /* Remove margin from heading */
+}
+
+.items-list p {
+    margin-bottom: 10px; /* Add spacing below paragraph */
+}
+
+.items-list hr {
+    margin: 20px 0; /* Add margin above and below line */
+    border: none;
+    border-top: 1px solid #ccc; /* Style the line */
+}
+
+
+#Routine {
+    display: none;
+    padding: 20px;
+    text-align: center; /* Center-align the content */
+}
+
+#Routine h2 {
+    margin-top: 0; /* Remove top margin */
+}
+
+.routine-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; /* Center-align the list */
+    max-width: 600px; /* Limit the width of the list */
+}
+
+.routine-list li {
+    margin-bottom: 20px;
+    text-align: left; /* Left-align the list items */
+}
+
+.routine-list h3 {
+    margin-top: 0; /* Remove top margin for headings */
+}
+
+.routine-list p {
+    margin-bottom: 5px;
+}
+
+.routine-list hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
